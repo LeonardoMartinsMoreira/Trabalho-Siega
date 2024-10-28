@@ -127,6 +127,7 @@ h1 {
   color: #333;
   border-radius: 13px;
   gap: 20px;
+  width: 200px;
 }
 
 .category-info span {
