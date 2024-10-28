@@ -19,10 +19,19 @@ nav ul {
 nav ul li {
   margin-right: 1rem;
 }
+
 nav ul li a {
   text-decoration: none;
   color: #333;
+  font-size: 20px;
 }
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: 333;
+  font-size: 20px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -37,14 +46,17 @@ nav ul li a {
   display: flex;
   gap: 1rem;
 }
+
 main {
   padding: 2rem 0;
 }
+
 .hero {
   display: flex;
   gap: 2rem;
   margin-bottom: 2rem;
 }
+
 .hero-text {
   font-size: 40px;
   font-weight: 400;
@@ -126,17 +138,16 @@ h1 {
   background-color: #f5f5f5;
   color: #333;
   border-radius: 13px;
-  gap: 20px;
   width: 200px;
 }
 
 .category-info span {
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .category-info button {
-  background-color: #4965365C;
+  background-color: #556b2f;
   border: none;
   color: white;
   font-size: 1.2rem;
